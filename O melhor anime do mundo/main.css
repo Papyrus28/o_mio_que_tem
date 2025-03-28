@@ -1,3 +1,4 @@
+<<<<<<< HEAD:main.css
   * {
     box-sizing: border-box;
     margin: 0;
@@ -225,3 +226,207 @@ section h3 {
 .line5 { margin-left: 80px; }
 .line6 { margin-left: 100px; }
 
+=======
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: rgb(110, 124, 248);
+  }
+
+  header h1 {
+    color: aliceblue;
+    height: 50px;
+    font-size: 300%;
+    padding: 16px 32px; 
+    position: relative;
+ }
+
+  .tripulação {
+    height: 350px;
+    width: 50%;
+    padding: 16px 32px;
+  }
+
+ nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+ }
+
+ .motivos {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 32px;
+    margin-top: 32px;
+ } 
+
+.porque {
+    font-size: 150%;
+    padding: 16px 32px;
+    line-height: 1.6;
+}
+
+.dripp {
+    font-size: 150%;
+    padding: 10px 32px;
+    line-height: 1.6;
+}
+
+section h3 {
+    font-size: 220%;
+    margin-left: 32px;
+    color: #B3E5FC;
+}
+
+#filmgold h4 {
+    color: gold;
+    align-items: center;
+}
+
+
+.filmoro img {
+    height: 400px;
+    border: 10px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+    margin: 12px;
+}
+
+.filmoro img:hover {
+  border-color: gold;
+}
+
+#filmgold {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#filmgold h4,
+#filmred h4,
+#filmstrong h4 {
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: xx-large;
+}
+
+.filmoro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.oro {
+    max-width: 50%;
+    height: auto;
+}
+
+.poro {
+    max-width:100%;
+    font-size: 150%;
+    line-height: 1.6;
+}
+
+#filmgold {
+    background-color:#1A1A1A;
+    color: gold;
+}
+
+#filmred {
+    background-color:#2E1A47;
+    color:#D72638 ;
+}
+
+.vermelho img {
+    height: 500px;
+    border: 10px solid #F8E1E7;
+    transition: border-color 0.3s ease-in-out;
+    margin: 12px;
+    
+}
+
+.vermelho img:hover {
+    border-color:#D72638;
+}
+
+.vermelho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.filmvermelho {
+    max-width:100%;
+    font-size: 160%;
+    line-height: 1.6;
+}
+
+.strong {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 0;
+    position: relative;
+}
+
+.strong img {
+    max-width: 45%;
+    height: 350px;
+    border: 10px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+    top: 50px;
+    left: 50%;
+    transform: translateX(120%);
+    z-index: 2;
+    margin-bottom: 0%;
+}
+
+.strong img:hover {
+    border-color:#3A3A3A;
+}
+
+#filmstrong {
+    color: #C4A000;
+    background-color: #121212;
+    padding: 10px;
+}
+
+.for {
+    font-size: 120%;
+    line-height: 2.0;
+    max-width: 80%;
+    text-align: left;
+    margin-top: 0;
+    position: absolute;
+    margin-top: 225px;
+}
+
+.tes {
+    font-size: 120%;
+    line-height: 2.0;
+    text-align:left ;
+    position:relative;
+    margin-top: -50px;
+}
+
+.line1 { margin-left: ; }
+.line2 { margin-left: 10px; }
+.line3 { margin-left: 40px; }
+.line4 { margin-left: 60px; }
+.line5 { margin-left: 80px; }
+.line6 { margin-left: 100px; }
+
+>>>>>>> 065fe0c8d37213c7257bf35e8d211246966fd402:O melhor anime do mundo/main.css
